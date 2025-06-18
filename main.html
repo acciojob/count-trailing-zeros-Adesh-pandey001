@@ -1,31 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <title>Count Trailing Zeros in Factorial</title>
-  <script>
-    function trailingZeros(n) {
-      let count = 0;
-      while (n >= 5) {
-        n = Math.floor(n / 5);
-        count += n;
-      }
-      return count;
-    }
-
-    window.onload = function() {
-      const input = prompt("Enter a non-negative integer:");
-      const num = parseInt(input);
-
-      if (!isNaN(num) && num >= 0) {
-        const result = trailingZeros(num);
-        alert("Number of trailing zeros in " + num + "! is: " + result);
-      } else {
-        alert("Invalid input. Please enter a non-negative integer.");
-      }
-    };
-  </script>
+	<link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+	<!-- the entire body must be written by student -->
+    <script type="text/javascript" src="./script.js">
+</script>
+
 </body>
+
 </html>
